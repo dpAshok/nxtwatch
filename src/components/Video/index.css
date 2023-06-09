@@ -1,0 +1,62 @@
+.each_videoCard {
+  width: 100%;
+  border-radius: 7px;
+}
+
+.each_videoCard img {
+  width: 100%;
+}
+
+.video_details {
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px;
+  width: 100%;
+  line-height: 1.5rem;
+}
+
+.video_details img {
+  width: 50px;
+  height: 50px;
+  margin: 10px 20px 10px 5px;
+}
+.video_details h2 {
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.video_details p {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  margin: 15px 0px;
+}
+.view_time {
+  display: flex;
+  align-items: center;
+}
+.view_time span {
+  margin: 10px 10px 10px 0px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.darkColorCard {
+  background-color: #181818;
+  color: #ffffff;
+}
+.lightColorCard {
+  color: #00306e;
+  box-shadow: 2px 3px 7px 5px rgba(105, 101, 101, 0.212);
+}
+
+.color1 {
+  color: #ffffff;
+}
+.color2 {
+  color: #00306e;
+}
+
+@media screen and (max-width: 768px) {
+  .each_videoCard {
+    margin-bottom: 20px;
+  }
+}

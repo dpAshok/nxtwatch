@@ -1,0 +1,9 @@
+.videItemDetailsContainer {
+  width: 90%;
+}
+.dark {
+  background-color: black;
+}
+.light {
+  background-color: #fff;
+}

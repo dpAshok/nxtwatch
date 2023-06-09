@@ -1,0 +1,86 @@
+.each_TrendingVideoCard {
+  width: 100%;
+  background-color: transparent;
+  border-radius: 7px;
+  display: flex;
+}
+
+.thumbnailImage {
+  width: 100%;
+  max-width: 500px;
+}
+
+.TrendingVideo_details {
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px;
+  width: 100%;
+  line-height: 1.5rem;
+  background-color: transparent;
+  /* text-decoration: none; */
+}
+
+.TrendingVideo_details img {
+  width: 50px;
+  height: 50px;
+  margin: 0px 20px 10px 5px;
+}
+.TrendingVideo_details h2 {
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.TrendingVideo_details p {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  margin: 15px 0px;
+}
+.view_time {
+  display: flex;
+  align-items: center;
+}
+.view_time span {
+  margin: 10px 10px 10px 0px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.darkColorCard {
+  background-color: #181818;
+  color: #ffffff;
+}
+.lightColorCard {
+  color: #00306e;
+  background-color: transparent;
+}
+
+.color1 {
+  color: #ffffff;
+}
+.color2 {
+  color: #00306e;
+}
+
+@media screen and (max-width: 768px) {
+  .each_TrendingVideoCard {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 3px 7px 5px rgba(105, 101, 101, 0.212);
+    justify-content: center;
+    align-items: center;
+  }
+  .thumbnailImage {
+    width: 100%;
+    min-width: 100%;
+  }
+  .TrendingVideo_details {
+    text-decoration: none;
+    padding: 10px;
+  }
+  .TrendingVideo_details img {
+    width: 50px;
+    height: 50px;
+    margin: 0px 20px 10px 5px;
+  }
+}

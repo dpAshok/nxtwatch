@@ -1,0 +1,42 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.each_GamingVideoCard {
+  width: 100%;
+  /* background-color: #fff; */
+  display: flex;
+  flex-direction: column;
+  border-radius: 7px;
+}
+
+.GamingVideo_details {
+  font-family: 'Roboto';
+  color: black;
+  margin-top: 10px;
+  padding-left: 15px;
+}
+
+.darkColorCard {
+  background-color: #181818;
+  color: #ffffff;
+}
+.lightColorCard {
+  color: #00306e;
+  box-shadow: 2px 3px 7px 5px rgba(105, 101, 101, 0.212);
+}
+
+.color1 {
+  color: #ffffff;
+}
+.color2 {
+  color: #00306e;
+}
+
+@media screen and (max-width: 768px) {
+  .each_GamingVideoCard {
+    width: 100%;
+  }
+}
